@@ -1,0 +1,77 @@
+body{
+    background-color: #adcdee;
+    min-height: 100vh;
+    margin: 0;
+    padding: 40px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#informasi {
+    margin: 30px auto;
+    box-shadow: 0 0.5 1px 0 rgb(111, 88, 88);
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 5px 30px 10px 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+}
+
+#informasi h1{
+    text-align: center;
+    background-color: rgb(16, 9, 94);
+    margin-left: -30px;
+    margin-right: -30px;
+    margin-top: -10px;
+    padding: 20px 0;
+    color: white;
+}
+
+#informasi h3 {
+    color: #1e3a8a; 
+    margin-top: 25px;
+    margin-bottom: 12px;
+    border-bottom: 2px solid #2563eb;
+    padding-bottom: 6px;
+    font-size: 1.1rem;
+}
+
+.link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    margin: 30px auto 0;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(235, 166, 17);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    transition: all 0.2s linear;
+}
+
+.link a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.link:hover{
+    box-shadow: 0 2px 3px 0.5px rgb(165, 165, 165);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px 5px;
+    vertical-align: top;
+    font-size: 0.95rem;
+    color: #333;
+}
+
+td label {
+    font-weight: bold;
+}
