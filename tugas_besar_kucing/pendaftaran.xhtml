@@ -1,0 +1,33 @@
+<!DOCTYPE html  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtmll1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="id" lang="id">
+<head>
+    <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
+    <title>Pendaftaran Akun - CatTracker Local</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+    <div class="container auth-box">
+        <h2>Pendaftaran Cat Watcher</h2>
+        <form id="formDaftar" action="pendaftaran.php" method="post">
+            <p>
+                <label for="nama_lengkap">Nama Lengkap:</label><br />
+                <input type="text" name="nama_lengkap" id="nama_lengkap" />
+            </p>
+            <p>
+                <label for="username">Username:</label><br />
+                <input type="text" name="username" id="username" />
+            </p>
+            <p>
+                <label for="password">Password (minimal 6 karakter):</label><br />
+                <input type="password" name="password" id="password" />
+            </p>
+            <p>
+                <input type="submit" value="Daftar Sekarang" class="btn" />
+            </p>
+        </form>
+        <p>Sudah punya akun? <a href="login.xhtml">Login di sini</a></p>
+    </div>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
